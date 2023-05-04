@@ -1,0 +1,54 @@
+@font-face {
+    font-family: MonsterratVar;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/*reset*/
+body,nav,footer,div,p,a,h1,h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*general*/
+a{
+    text-decoration: none;
+    color: black;
+}
+p, h1, h3{
+    font-family: MonsterratVar;
+}
+
+/*navigation bar*/
+nav{
+    text-align: left;
+    background-color: #456680;
+    padding: 1%;
+}
+nav p{
+    display: inline;
+    margin: 0.5%;
+}
+
+/*body*/
+body{
+    background-color: #494e52;
+}
+.body{
+    background-color: #1f2326;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: #456680;
+    text-align: center;
+    clear:both;
+    padding: 0.5% 1%;
+}
+footer p{
+    display: inline;
+    margin: 0% 5%;
+}
