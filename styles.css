@@ -34,9 +34,9 @@ nav p{
 body{
     background-color: #494e52;
 }
-.body{
+.main{
     background-color: #1f2326;
-    width: 75%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
