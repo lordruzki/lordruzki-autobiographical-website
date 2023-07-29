@@ -4,51 +4,23 @@
 }
 
 /*reset*/
-body,nav,footer,div,p,a,h1,h3{
+body,nav,footer,div,p,a,h1,h2,h3,h4{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 /*general*/
-a{
-    text-decoration: none;
-    color: black;
-}
-p, h1, h3{
-    font-family: MonsterratVar;
+p,h2,h3{
+    color: white;
 }
 
 /*navigation bar*/
-nav{
-    text-align: left;
-    background-color: #456680;
-    padding: 1%;
-}
-nav p{
-    display: inline;
-    margin: 0.5%;
-}
+
 
 /*body*/
 body{
-    background-color: #494e52;
-}
-.main{
-    background-color: #1f2326;
-    width: 90%;
-    margin: auto;
-    text-align: center;
+    background-color: black;
 }
 
 /*footer*/
-footer{
-    background-color: #456680;
-    text-align: center;
-    clear:both;
-    padding: 0.5% 1%;
-}
-footer p{
-    display: inline;
-    margin: 0% 5%;
-}
