@@ -8,8 +8,23 @@
         <title>HOME</title>
 
         <style>
-            body{
+            #main{
                 padding: 0% 15%;
+            }
+
+            header{
+                position: relative;
+            }
+            #backgroundimg{
+                width: 100%;
+            }
+            #profilepicimg{
+                position: absolute;
+                margin: auto;
+            }
+            #profilepicimg img{
+                width: 10%;
+                border-radius: 100%;
             }
 
             footer{
@@ -21,12 +36,19 @@
         </style>
     </head>
     <body>
-        <nav>
-            
-        </nav>
+        <header>
+            <img id="backgroundimg" src="images/headerBack.jpg" alt="Background header of the University of Louisville Campus"/>
+            <div id="profilepicimg">
+                <img src="images/profilePic.jpg" alt="Profile picture of myself"/>
+            </div>
+        </header>
 
-        <div #main> <!--display inforamtion about my projects, languages, experience, links-->
-            <div #experiencediv>
+        <div id="main"> <!--display inforamtion about my projects, languages, experience, links-->
+            <aside>
+                <!--timeline with points-->
+            </aside>
+
+            <div id="experiencediv">
                 <h2>Experience</h2>
                 
                 <h3>2017</h3>
@@ -45,31 +67,31 @@
                 <p>Capstone project based on C# with Windows Forms and SQL Database</p>
             </div>
 
-            <div #projectsdiv>
+            <div id="projectsdiv">
                 <h2>Projects</h2>
                 
-                <div #personalwebsitediv>
+                <div id="personalwebsitediv">
                     <h3>Personal Website</h3>
                 </div>
                 
-                <div #cbdbdiv>
+                <div id="cbdbdiv">
                     <h3>Chromebooks DB</h3>
                 </div>
                 
-                <div #plannerappdiv>
+                <div id="plannerappdiv">
                     <h3>Planner Application</h3>
                 </div>
                 
-                <div #webmas21div>
+                <div id="webmas21div">
                     <h3>Webmaster '21 Event</h3>
                 </div>
             </div>
 
-            <div #languagesdiv>
+            <div id="languagesdiv">
                 <h2>Languages</h2>
             </div>
 
-            <div #systemsdiv>
+            <div id="systemsdiv">
                 <h2>Systems</h2>
             </div>
         </div>

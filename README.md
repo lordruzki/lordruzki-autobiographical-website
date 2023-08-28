@@ -3,6 +3,11 @@ Personal Biography Website
 
 Personal website to show off my projects, info about me, and cool stuff I do.
 
+v0.0.1c Rewrite syntax fix
+----------------------------------------
+
+## Changes
+ID and Class tags were incorrectly declared in HTML source
 
 v0.0.1b Initial Code Rewrite (7-28-2023)
 ----------------------------------------
