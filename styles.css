@@ -11,8 +11,11 @@ body,nav,footer,div,p,a,h1,h2,h3,h4{
 }
 
 /*general*/
-p,h2,h3{
+p,h1,h2,h3,h4{
     color: white;
+}
+a:active{
+    text-decoration: none;
 }
 
 /*navigation bar*/
@@ -20,7 +23,8 @@ p,h2,h3{
 
 /*body*/
 body{
-    background-color: black;
+    background-color: #00051a;
+    font-family: MonsterratVar;
 }
 
 /*footer*/

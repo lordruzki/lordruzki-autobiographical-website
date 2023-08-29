@@ -3,6 +3,24 @@ Personal Biography Website
 
 Personal website to show off my projects, info about me, and cool stuff I do.
 
+v0.0.2 ContactLink branch
+----------------------------------------
+
+## Objective
+
+The Contact Link is supposed to be linked from an NFC chip allowing my contact information to be shared on mobile browsers.
+
+## Organization
+
+Each button link is structured under a div with the class *contactButton* and storing the actual link inside it. The link itself stores the *h4* tag that is the type of link and *p* containing information for how to search the information manually.
+Example:
+    Instagram
+    @churuizramos
+
+For the Contact button, rather than a link, the button executes a download command for a VCF file storing said contact information. Reasearch at: https://stackoverflow.com/questions/8669912/add-a-contact-to-the-mobile-device-address-book-from-an-html-webpage.
+
+VCF file is labeled [contactDownload.vcf]
+
 v0.0.1c Rewrite syntax fix
 ----------------------------------------
 
