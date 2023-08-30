@@ -17,9 +17,13 @@ Example:
     Instagram
     @churuizramos
 
-For the Contact button, rather than a link, the button executes a download command for a VCF file storing said contact information. Reasearch at: https://stackoverflow.com/questions/8669912/add-a-contact-to-the-mobile-device-address-book-from-an-html-webpage.
+For the [Add Contact] button, rather than a link, the button executes a download command for a VCF file storing said contact information. Reasearch at: https://stackoverflow.com/questions/8669912/add-a-contact-to-the-mobile-device-address-book-from-an-html-webpage.
 
 VCF file is labeled [contactDownload.vcf]
+
+## Notes
+
+Color scheme used on this page would work well in the rest of the website. Link at the bottom will be used to access the main website.
 
 v0.0.1c Rewrite syntax fix
 ----------------------------------------
