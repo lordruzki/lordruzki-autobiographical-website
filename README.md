@@ -1,7 +1,22 @@
-Personal Biography Website
+Webfolio Website
 ==========================
+Personal website to show off my projects, info about me, and cool stuff I do. My webfolio will provide links to my GitHub profile, repositories, my resume, socials, and my *possible* photography website.
 
-Personal website to show off my projects, info about me, and cool stuff I do.
+main-master-redo
+---
+This version of the code completely restructures the base code for the website. Rather than relying on a series of pages, the webfolio will rely on a single page. The purpose of this is to allow for future recreations of the webfolio using systems such as React to improve the abilities of the site is needed as all the information would be sotred under a single universal index.html.
+
+## Legacy Code
+Legacy code is hidden with comments. The last versions of the legacy code that were used:
+
+<blockquote>
+<h3>ContactLink Branch</h3>
+The Contact Link is supposed to be linked from an NFC chip allowing my contact information to be shared on mobile browsers.
+</blockquote>
+
+This code is outdated but some of its fuctionality can still be reused later.
+
+<!--
 
 v0.0.2 ContactLink branch
 ----------------------------------------
@@ -47,3 +62,5 @@ v0.0.1 Initial Code State (7-5-2023)
 ----------------------------------------
 
 This is a static basis including most of the files that could end up being used to create the website. Pages and their information still need to be fleshed out completely. New system should be utilized to simplify the page creation process.
+
+-->
