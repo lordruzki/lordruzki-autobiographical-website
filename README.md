@@ -2,10 +2,31 @@ Webfolio Website
 ==========================
 Personal website to show off my projects, info about me, and cool stuff I do. My webfolio will provide links to my GitHub profile, repositories, my resume, socials, and my *possible* photography website.
 
-main-master-redo
+body-and-links
 ---
-This version of the code completely restructures the base code for the website. Rather than relying on a series of pages, the webfolio will rely on a single page. The purpose of this is to allow for future recreations of the webfolio using systems such as React to improve the abilities of the site is needed as all the information would be sotred under a single universal index.html.
+This branch is meant to build up all the information displayed inside the body of the webfolio as well as all the links needed. The branches that have been created from this include:
+- about-section
+- portfolio-section
+- photography-section
+- contact-section
 
+Additionally added:
+- Improved in-file documentation
+- Improvements to README file
+- Added images to the <u>header</u> section that can be used later
+- Additional links to the header section for my Git and LinkedIn
+
+body-and-links/about-section
+---
+This branch adds the information needed to initiate the About section of the webfolio. This includes, but is not limited to:
+- College <del>courses</del>
+- <del>Self-taught stuff</del> <i>Not being utilized due to its lack of place in this section</i>
+- High School <del>courses</del>
+- Simplified method for the about-section as too much information would overshadow later, more important, parts of the webfolio.
+
+
+
+<!--
 ## Legacy Code
 Legacy code is hidden with comments. The last versions of the legacy code that were used:
 
@@ -15,6 +36,7 @@ The Contact Link is supposed to be linked from an NFC chip allowing my contact i
 </blockquote>
 
 This code is outdated but some of its fuctionality can still be reused later.
+-->
 
 <!--
 
