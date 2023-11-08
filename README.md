@@ -16,13 +16,10 @@ Additionally added:
 - Added images to the <u>header</u> section that can be used later
 - Additional links to the header section for my Git and LinkedIn
 
-body-and-links/about-section
+body-and-links/portfolio-section/projects-bootstrap
 ---
-This branch adds the information needed to initiate the About section of the webfolio. This includes, but is not limited to:
-- College <del>courses</del>
-- <del>Self-taught stuff</del> <i>Not being utilized due to its lack of place in this section</i>
-- High School <del>courses</del>
-- Simplified method for the about-section as too much information would overshadow later, more important, parts of the webfolio.
+- Adds bootstrap functionality to file. Eliminates need for proprietary styles.css for now
+- Eliminates unnecessary id and class tags
 
 
 
