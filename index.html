@@ -17,8 +17,17 @@
 
     <style>
         header{
-            padding: 2%;
+            padding: 10%;
+            height: 1000px;
         }
+        header img, #headerAltStyle{
+            display: inline-block;
+            margin: 3%;
+        }
+        #headerAltStyle{
+            margin: 2% 0%;
+        }
+
         #mainDiv{
             padding: 2%;
         }
@@ -46,14 +55,14 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#about">About</a>
                     <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -75,17 +84,19 @@
     </nav>
 
     <!--    will contain a header image of myself as well as my name    -->
-    <header style="background-color:#c6d690; ">
+    <header style="background-color:#8c9c4c; ">
 
         <img src="images/profilePic.jpg" alt="Image of myself" width="300px"/>
 
-        <div>
+        <div id="headerAltStyle">
             <h1>Jesus Ruiz Ramos</h1>
 
             <div id="headerLinks">
                 <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="My GitHub"/></a>
                 <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48.png"/></a>
             </div>
+
+            <p>Web and UI/UX developer.</p>
         </div>
 
     </header>
@@ -189,13 +200,12 @@
     <!--  bottom social links such as my GitHub, Instagram, LinkedIn  -->
     <footer>
 
-        <a href="mailto:ruizramos04@outlook.com"><img src="images/icons/icons8-mail-48.png"/>ruizramos04@outlook.com</a>
-        <a href="https://www.instagram.com/churuizramos/" target="_blank"><img src="images/icons/icons8-instagram-48.png"/>@churuizramos</a>
-        <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png"/>@lordruzki</a>
-        <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48-dark.png"/>LinkedIn</a>
+        <a href="mailto:ruizramos04@outlook.com"><img src="images/icons/icons8-mail-48.png" alt="eMail icon"/>ruizramos04@outlook.com</a>
+        <a href="https://www.instagram.com/churuizramos/" target="_blank"><img src="images/icons/icons8-instagram-48.png" alt="Instagram icon"/>@churuizramos</a>
+        <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="GitHub icon"/>@lordruzki</a>
+        <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48-dark.png" alt="LinkedIn icon"/>LinkedIn</a>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
