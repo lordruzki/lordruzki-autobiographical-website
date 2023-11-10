@@ -8,39 +8,95 @@
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/bootstrap.js"></script>
 
-    <title>Webfolio</title>
+    <title>Jesus Ruiz Webfolio</title>
 
     <!--
 
 
     -->
+
+    <style>
+        header{
+            padding: 10%;
+            height: 1000px;
+        }
+        header img, #headerAltStyle{
+            display: inline-block;
+            margin: 3%;
+        }
+        #headerAltStyle{
+            margin: 2% 0%;
+        }
+
+        #mainDiv{
+            padding: 2%;
+        }
+        #languagesAltStyle img{
+            width: 48px;
+        }
+        #languagesIcons{
+            margin: 1%;
+        }
+
+        footer{
+            text-align: center;
+            padding: 2%;
+            background-color: #F8F9FA;
+        }
+        footer a, footer a:visited, footer a:active, footer a:hover{
+            margin: 3%;
+            font-size: small;
+            text-decoration: none;
+            color: black;
+        }
+        footer a img{
+            width: 24px;
+        }
+    </style>
 </head>
 <body>
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-        <a href="#portfolio">Portfolio</a>
-        <a href="#photography">Photography</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#photography">Photography</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#contact">Go to Contact</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="mailto:ruizramos04@outlook.com">Email</a></li>
+                            <li><a class="dropdown-item" href="">Resume</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+
+        </div>
 
     </nav>
 
     <!--    will contain a header image of myself as well as my name    -->
-    <header>
+    <header style="background-color:#8c9c4c; ">
 
-        <img src="" alt="Image of myself"/>
+        <img src="images/profilePic.jpg" alt="Image of myself" width="300px"/>
 
-        <h1>Jesus Ruiz Ramos</h1>
+        <div id="headerAltStyle">
+            <h1>Jesus Ruiz Ramos</h1>
 
-        <!--    includes temporary styling for debugging purposes    -->
-        <img src="images/Louisville_Cardinals_logo.svg.png" alt="UofL Logo" width="100px"/>
-        <img src="images/crimson-ram.png" alt="DuPont Manual Highschool ram png" width="130px"/>
+            <div id="headerLinks">
+                <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="My GitHub"/></a>
+                <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48.png"/></a>
+            </div>
 
-        <div id="headerLinks">
-
-            <a href="">GitHub</a>
-            <a href="">LinkedIn</a>
-
+            <p>Web and UI/UX developer.</p>
         </div>
 
     </header>
@@ -49,7 +105,7 @@
     <div id="mainDiv">
 
         <!--    contains the information about me    -->
-        <div style="background-color: #f0efe1; border: solid black 3px; border-radius: 20px">
+        <div id="about">
 
             <!--    college section    -->
             <div>
@@ -96,24 +152,26 @@
 
         </div>
 
-        <div style="background-color: #f0efe1; border: solid black 3px; border-radius: 20px">
+        <div id="portfolio">
 
             <div>
                 <h1>Portfolio</h1>
             </div>
 
             <!-- languages section, contains the header and the icons of my languages -->
-            <div>
-
+            <div id="languagesAltStyle" class="card">
+                <h5 class="card-title" style="margin:1%;">Languages</h5>
                 <!--    languages I'm learning and experienced with    -->
-                <img src="images/icons/icons8-c-48.png" alt="C#"/>
-                <img src="images/icons/icons8-c-48(1).png" alt="C"/>
-                <img src="images/icons/icons8-c-48(2).png" alt="C++"/>
-                <img src="images/icons/icons8-html-48.png" alt="HTML 5"/>
-                <img src="images/icons/icons8-css-48.png" alt="CSS"/>
-                <img src="images/icons/icons8-javascript-48.png" alt="JavaScript"/>
-                <img src="images/icons/icons8-java-48.png" alt="Java"/>
-                <img src="images/icons/icons8-python-48.png" alt="Python"/>
+                <div id="languagesIcons">
+                    <img src="images/icons/icons8-c-48.png" alt="C#"/>
+                    <img src="images/icons/icons8-c-48(1).png" alt="C"/>
+                    <img src="images/icons/icons8-c-48(2).png" alt="C++"/>
+                    <img src="images/icons/icons8-html-48.png" alt="HTML 5"/>
+                    <img src="images/icons/icons8-css-48.png" alt="CSS"/>
+                    <img src="images/icons/icons8-javascript-48.png" alt="JavaScript"/>
+                    <img src="images/icons/icons8-java-48.png" alt="Java"/>
+                    <img src="images/icons/icons8-python-48.png" alt="Python"/>
+                </div>
             </div>
 
             <!-- projects section; contains my projects -->
@@ -129,11 +187,11 @@
 
         </div>
 
-        <div>
+        <div id="photography">
 
         </div>
 
-        <div>
+        <div id="contact">
 
         </div>
 
@@ -141,14 +199,13 @@
 
     <!--  bottom social links such as my GitHub, Instagram, LinkedIn  -->
     <footer>
-        
-        <a href="">Instagram</a>
-        <a href="">GitHub</a>
-        <a href="">LinkedIn</a>
-        <a href="">Email</a>
+
+        <a href="mailto:ruizramos04@outlook.com"><img src="images/icons/icons8-mail-48.png" alt="eMail icon"/>ruizramos04@outlook.com</a>
+        <a href="https://www.instagram.com/churuizramos/" target="_blank"><img src="images/icons/icons8-instagram-48.png" alt="Instagram icon"/>@churuizramos</a>
+        <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="GitHub icon"/>@lordruzki</a>
+        <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48-dark.png" alt="LinkedIn icon"/>LinkedIn</a>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
