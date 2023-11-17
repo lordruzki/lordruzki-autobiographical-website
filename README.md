@@ -5,8 +5,6 @@ lordruzki-webfolio website to show off my projects, info about me, and cool stuf
 ### General Static Structure
 - 🗺️ Nav
 - 🤵 Header
-- 🔎 About
-    - 🏫 Education (Might incorpoortate into Header: Mostly visual. Images and headers that showcase where I've gotten my education. 
 - 📁 Portfolio 
     - ⌨️ Languages: Specifically computer languages. This is shown as icons. Might not add a header for this section at all.
     - 📐 Projects: All my comp sci projects and what I'v learned from them. Both old and new. These would include links to the GitHub repos.
