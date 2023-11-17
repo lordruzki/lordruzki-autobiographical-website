@@ -16,18 +16,20 @@
     -->
 
     <style>
+        /*header style*/
         header{
-            padding: 10%;
-            height: 1000px;
+            padding: 15% 10%;
+            height: 950px;
         }
-        header img, #headerAltStyle{
+        #headerDivStyle, #headerImg{
             display: inline-block;
-            margin: 3%;
+            vertical-align: middle;
+            margin: 0 2.5%;
         }
-        #headerAltStyle{
-            margin: 2% 0%;
+        #headerDivStyle{
         }
 
+        /*body style*/
         #mainDiv{
             padding: 2%;
         }
@@ -38,6 +40,7 @@
             margin: 1%;
         }
 
+        /*footer style*/
         footer{
             text-align: center;
             padding: 2%;
@@ -63,20 +66,25 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                    <a class="nav-link" href="#photography">Photography</a>
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photography">Photography</a>
+                    </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#contact">Go to Contact</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="mailto:ruizramos04@outlook.com">Email</a></li>
-                            <li><a class="dropdown-item" href="">Resume</a></li>
+                            <li><a class="dropdown-item" href="#">Resume</a></li>
                         </ul>
                     </li>
-                </div>
+                </ul>
             </div>
 
         </div>
@@ -86,71 +94,22 @@
     <!--    will contain a header image of myself as well as my name    -->
     <header style="background-color:#8c9c4c; ">
 
-        <img src="images/profilePic.jpg" alt="Image of myself" width="300px"/>
+        <img id="headerImg" src="images/profilePic.jpg" alt="Image of myself" width="300px"/>
 
-        <div id="headerAltStyle">
+        <div id="headerDivStyle">
             <h1>Jesus Ruiz Ramos</h1>
 
-            <div id="headerLinks">
-                <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="My GitHub"/></a>
-                <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48.png"/></a>
-            </div>
+            <img src="images/JB-speed-logo.png" alt="JB Speed School of Engineering logo image" width="70%"/>
+            <h3>Computer Science Engineering | Web and UI/UX Developer</h3>
 
-            <p>Web and UI/UX developer.</p>
+            <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="My GitHub"/></a>
+            <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48.png"/></a>
         </div>
 
     </header>
 
     <!--  contains all the information for the body  -->
     <div id="mainDiv">
-
-        <!--    contains the information about me    -->
-        <div id="about">
-
-            <!--    college section    -->
-            <div>
-                <div>
-                    <h2>University of Louisville</h2>
-                    <img src="images/JB-speed-logo.png" alt="JB Speed School of Engineering logo image" width="500px"/>
-<!--                    <h2>J.B. Speed School of Engineering</h2>-->
-                    <h3>Computer Science Engineering</h3>
-                </div>
-
-                <!--
-                <dl>
-                    <dt>ENGR 100</dt>
-                    <dd>Introduction for engineering concepts as well as an introductory Python course.</dd>
-                    <dt>CSE 130</dt>
-                    <dd>Introduction for C and C++ courses. This also teaches fundamentals for software development and memory management.</dd>
-                </dl>
-                -->
-
-            </div>
-
-            <!--
-            self-taught
-            <div class="aboutSections" id="aboutSelfTaught">
-                <div id="aboutSelfTaughtHeader">
-                    <h2>Self-Taught</h2>
-                </div>
-                <dl>
-                    <dt>C#</dt>
-                    <dd>Self-taught as an introduction to coding.</dd>
-                </dl>
-            </div>
-            -->
-
-            <!--    high school section    -->
-            <div>
-                <div>
-
-                    <img src="images/manualcircle%20.png" alt="Manual Highschool Crest" width="100px"/>
-                    <h4>DuPont Manual High School</h4>
-                    <h5>Math, Science, & Tenchnology Magnet</h5>
-                </div>
-            </div>
-
-        </div>
 
         <div id="portfolio">
 
