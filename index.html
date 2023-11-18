@@ -20,14 +20,14 @@
         header{
             padding: 15% 10%;
             height: 950px;
+            background-color:#8c9c4c;
         }
         #headerDivStyle, #headerImg{
             display: inline-block;
             vertical-align: middle;
             margin: 0 2.5%;
         }
-        #headerDivStyle{
-        }
+
 
         /*body style*/
         #mainDiv{
@@ -36,9 +36,14 @@
         #languagesAltStyle img{
             width: 48px;
         }
+        #languagesAltStyle{
+            text-align: center;
+
+        }
         #languagesIcons{
             margin: 1%;
         }
+
 
         /*footer style*/
         footer{
@@ -78,16 +83,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#photography">Photography</a>
                     </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#contact">Go to Contact</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="mailto:ruizramos04@outlook.com">Email</a></li>
-                            <li><a class="dropdown-item" href="#">Resume</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://1drv.ms/f/s!Ag_MfCrcBzp7efJk-ktR8xJN5iU?e=okmsrl" target="_blank">Books Drive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+
                 </ul>
             </div>
 
@@ -96,7 +101,7 @@
     </nav>
 
     <!--    will contain a header image of myself as well as my name    -->
-    <header style="background-color:#8c9c4c; ">
+    <header>
 
         <img id="headerImg" src="images/profilePic.jpg" alt="Image of myself" width="300px"/>
 
@@ -121,7 +126,6 @@
 
 <!--            languages section, contains the header and the icons of my languages -->
             <div id="languagesAltStyle" class="card">
-                <h5 class="card-title" style="margin:1%;">Languages</h5>
                 <!--    languages I'm learning and experienced with    -->
                 <div id="languagesIcons">
                     <img src="images/icons/icons8-c-48.png" alt="C#"/>
