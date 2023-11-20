@@ -1,5 +1,5 @@
 Webfolio Website
-==========
+===
 lordruzki-webfolio website to show off my projects, info about me, and cool stuff I do. My webfolio will provide links to my GitHub profile, repositories, my resume, socials, and my *possible* photography website.
 
 ### General Static Structure
@@ -19,5 +19,9 @@ lordruzki-webfolio website to show off my projects, info about me, and cool stuf
 - 📱 Contact (Might not include)
 - Footer
 
-## Using
+### Using
 - [Bootstrap v5.3.2](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+Development Beta Version
+---
+The basic desktop site with all the information and initial, and not very modular at the moment, styling.
