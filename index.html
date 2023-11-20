@@ -28,10 +28,19 @@
             margin: 0 2.5%;
         }
 
-
         /*body style*/
         #mainDiv{
             padding: 2%;
+        }
+
+        /*portfolio section*/
+        #portfolio{
+            margin: 1% auto;
+            padding: 1.5%;
+            width: 90%;
+        }
+        #portfolio h1{
+            text-align: center;
         }
         #languagesAltStyle img{
             width: 48px;
@@ -44,6 +53,40 @@
             margin: 1%;
         }
 
+        /*photography section*/
+        #photography{
+            margin: 1% auto;
+            padding: 1.5%;
+            width: 90%;
+        }
+        #photography h1{
+            text-align: center;
+        }
+
+        /*contact section*/
+        #contact{
+            margin: auto;
+            padding: 1.5%;
+            width: 90%;
+        }
+        #contact .card{
+            margin-bottom: 8%;
+        }
+        #contact h1{
+            text-align: center;
+        }
+        #contact a, #contact a:any-link{
+            margin: 3%;
+            font-size: large;
+            text-decoration: none;
+            color: black;
+        }
+        #emailColumn{
+            padding: 3%;
+        }
+        #emailColumn button{
+            text-align: right;
+        }
 
         /*footer style*/
         footer{
@@ -51,18 +94,10 @@
             padding: 2%;
             background-color: #F8F9FA;
         }
-        footer a, footer a:visited, footer a:active, footer a:hover{
-            margin: 3%;
-            font-size: small;
-            text-decoration: none;
-            color: black;
-        }
-        footer a img{
-            width: 24px;
-        }
         footer p{
             color: #c1c1c1;
             margin: 30px;
+            font-size: 100%;
         }
     </style>
 </head>
@@ -120,7 +155,7 @@
     <!--  contains all the information for the body  -->
     <div id="mainDiv">
 
-        <div id="portfolio">
+        <div id="portfolio" class="card">
 
             <h1>Portfolio</h1>
 
@@ -155,25 +190,47 @@
 
         </div>
 
-        <div id="photography">
+        <div id="photography" class="card">
             <h1>Photography</h1>
         </div>
 
-        <div id="contact">
+        <div id="contact" class="card">
             <h1>Contact</h1>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <a href="#" target="_blank"><img src="images/icons/icons8-twitter-48.png" alt="Twitter icon"/>Twitter</a>
+                    </div>
+                    <div class="card">
+                        <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="GitHub icon"/>@lordruzki</a>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.instagram.com/churuizramos/" target="_blank"><img src="images/icons/icons8-instagram-48-color.png" alt="Instagram icon"/>@churuizramos</a>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48.png" alt="LinkedIn icon"/>LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="col-9">
+<!--                    This is the input field to formulate an email to myself-->
+                    <div class="card" id="emailColumn">
+                        <div class="card-title">
+                            <h3>Email</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </div>
 
-<!--    bottom social links such as my GitHub, Instagram, LinkedIn  -->
+    <!--    bottom social links such as my GitHub, Instagram, LinkedIn  -->
     <footer>
-        <a href="mailto:ruizramos04@outlook.com"><img src="images/icons/icons8-mail-48.png" alt="eMail icon"/>ruizramos04@outlook.com</a>
-        <a href="https://www.instagram.com/churuizramos/" target="_blank"><img src="images/icons/icons8-instagram-48.png" alt="Instagram icon"/>@churuizramos</a>
-        <a href="https://github.com/lordruzki" target="_blank"><img src="images/icons/icons8-github-48.png" alt="GitHub icon"/>@lordruzki</a>
-        <a href="https://www.linkedin.com/in/jesus-ruiz-9591a5238/" target="_blank"><img src="images/icons/icons8-linkedin-48-dark.png" alt="LinkedIn icon"/>LinkedIn</a>
-        <a ><img />Twitter</a>
-
-        <p>HTML5 & CSS by Jesus Ruiz Ramos</p>
+        <p>HTML5 & CSS written by Jesus Ruiz Ramos</p>
     </footer>
 
 </body>
