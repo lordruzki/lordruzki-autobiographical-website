@@ -42,6 +42,8 @@
         #portfolio h1{
             text-align: center;
         }
+
+        /*languages section*/
         #languagesAltStyle img{
             width: 48px;
         }
@@ -52,6 +54,24 @@
         #languagesIcons{
             margin: 1%;
         }
+
+        /*projects section*/
+        #projects{
+            margin-top: 2%;
+        }
+        #projects .card-header{
+            vertical-align: center;
+            text-decoration: none;
+        }
+
+        /*system knowledge*/
+        #systems .card{
+            margin-top: 1%;
+        }
+        #systems .card p{
+            margin: 0.5% 1%;
+            font-size: large;
+        }   
 
         /*photography section*/
         #photography{
@@ -175,17 +195,56 @@
             </div>
 
 <!--            projects section; contains my projects -->
-            <div>
-                <h2>Projects</h2>
+            <div id="projects">
+
+                <div class="row">
+<!--                webfolio-->
+                    <div class="col">
+                        <div class="card">
+                            <a class="card-header" href="https://github.com/lordruzki/lordruzki-webfolio/tree/main"><img src="images/icons/icons8-github-48.png" alt="GitHub icon"/>lordruzki-webfolio</a>
+                            <div class="card-body">
+                                <p>The website you're currently on! This is my personal website to serve as a web-based portfolio. I can use it for projects that are web-based in order to show off other projects. The site is coded in HTML and stylized using Bootstrap and alternative CSS styling. </p>
+                                <img src="images/icons/icons8-html-48.png" alt="HTML icon"/><img src="images/icons/icons8-css-48.png" alt="CSS icon"/><img src="images/icons/icons8-bootstrap-48.png" alt="Bootstrap icon"/>
+                            </div>
+                        </div>
+                    </div>
+<!--                chromebook database program-->
+                    <div class="col">
+                        <div class="card">
+                            <a class="card-header" href="#"><img src="images/icons/icons8-github-48.png" alt="GitHub icon">school_cbdb_program</a>
+                            <div class="card-body">
+                                <p>This program uses a SQLServer database that stores a school's Chromebook information such as who it's been loaned to, when, and where it is. The program itself visualizes and organizes this data for the user to access and alter. </p>
+                                <img src="images/icons/icons8-c-48.png" alt="C sharp icon"/><img src="images/icons/icons8-sql-48.png" alt="SQL icon"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+
             </div>
 
 <!--            resources I used to learn how to use certain systems-->
             <div>
-                <h2>Resources I Use</h2>
             </div>
 
-            <div>
-                <h2>System Experiences</h2>
+            <div id="systems">
+                <div class="card">
+                    <p><img src="images/icons/icons8-windows-10-48.png" alt="Windows icon"/>Windows Forms: Creating applications with C# with control of rendering capabilities.</p>
+                </div>
+                <div class="card">
+                    <p><img src="images/icons/icons8-bootstrap-48.png" alt="Bootstrap icon"/>Bootstrap: Intermediate usage allowing me to apply and change attributes and BS classes.</p>
+                </div>
+                <div class="card">
+                    <p><img src="images/icons/icons8-sql-48.png" alt="SQL icon"/>MSSMS: Application of a testing database in a program context.</p>
+                </div>
             </div>
 
         </div>
